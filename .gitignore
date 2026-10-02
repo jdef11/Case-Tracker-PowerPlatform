@@ -1,0 +1,14 @@
+# PHI guard: no data exports in this repo
+*.csv
+*.tsv
+migration/exports/
+*.bak
+.env
+.env.*
+# Allow the anonymized sample and blank templates explicitly
+!sample-data/OPMListsDataAnon_sampledata.xlsx
+# Build output
+bin/
+obj/
+node_modules/
+*.zip
